@@ -56,7 +56,9 @@ function apiCall (){
                     
                     }
                 }
-            }           
+            }else{
+                $("#heros-container").append("<h1>No Favorite Added...</h1>")
+            }        
         }
     })
 }
