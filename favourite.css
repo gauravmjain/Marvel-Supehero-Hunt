@@ -189,3 +189,9 @@ footer p a{
     font-size: 12px;
     align-self: center;
 }
+
+
+#heros-container > h1{
+    color: #ffffff;
+    opacity: 0.5;
+}
