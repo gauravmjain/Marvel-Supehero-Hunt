@@ -69,7 +69,8 @@ allHeros();
 // Event Listen for heros Card
 
 function closeInfoTab(){
-    $("#hero-info").css({"width":"0px","height":"0px"})
+    $("#hero-info").css({"width":"0px","height":"0px"});
+    $("#hero-image img").attr("src","");
 }
 
 $("#close-info").click(closeInfoTab);
